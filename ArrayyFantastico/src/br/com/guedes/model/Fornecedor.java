@@ -4,8 +4,7 @@ import java.io.Serializable;
 
 public class Fornecedor implements Serializable {
 	private static final long serialVersionUID = -7562573821975889774L;
-	
-	
+		
 	private String cnpj;
 	private String telefone;
 	private String email;

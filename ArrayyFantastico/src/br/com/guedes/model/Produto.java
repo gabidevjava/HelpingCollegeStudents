@@ -12,9 +12,10 @@ public class Produto implements Serializable {
 	
 	public Produto() {}
 	
-	public Float atualizarPreco(Float valor) {
-		
-		return 0F;
+	public Float atualizarPreco(Float porcentagem) {
+		Float percentual = porcentagem / 100.0f; 
+		setValor(percentual + getValor());
+		return getValor();
 	}
 
 	public Integer getCodigo() {
