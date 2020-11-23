@@ -1,2 +1,2 @@
 # HelpingCollegeStudents
-:mortar_board: :computer: :books: I help
+:mortar_board: :computer: :books: I help students
